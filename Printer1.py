@@ -2,9 +2,7 @@ from PIL import Image
 import os
 import shutil
 
-def image_to_ascii(image_path):
-    
-    # 이미지를 터미널 크기에 맞춰 ASCII 아트로 변환하여 출력하는 함수.
+def image_to_ascii(image_path): # 이미지를 터미널 크기에 맞춰 ASCII 아트로 변환하여 출력하는 함수.
     
     img = Image.open(image_path).convert("L")
 
