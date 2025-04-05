@@ -1,2 +1,2 @@
-# Print1
-# 간단한 아스키코드 프린터
+# Easy and Simple Python Printer
+# 쉽고 간단한 프린터
